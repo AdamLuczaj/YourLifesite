@@ -1,0 +1,96 @@
+body {
+    background-color: darkblue;
+    margin: 0;
+    min-height: 100vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    padding: 13px 0;
+    background: darkblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo a{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.navbar .logo a:hover{
+    color: rgb(100, 209, 100);
+}
+
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar .menu li a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 18px;
+    transition: color 0.3s ease;
+}
+
+.navbar .menu li a:hover{
+    color: rgb(100, 209, 100);
+}
+
+.weathercontainer {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 3rem;
+    border-radius: 1rem;
+    border: 2px solid black;
+    align-content: center;
+    flex-direction: column;
+    width: 500px;
+
+    margin: 0 auto;
+}
+
+.city {
+    text-align: center;
+}
+
+.icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.temp {
+    text-align: center;
+}
+
+.description {
+    text-transform: capitalize;
+}

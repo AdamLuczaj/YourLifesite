@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lifesite | Password Generator</title>
+    <link rel="stylesheet" href="./pwgenerator.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
+    <link rel="manifest" href="./images/site.webmanifest">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="/">Lifesite</a></div>
+
+            <ul class="menu">
+                <li><a href="/mypws">My Passwords</a></li>
+                <li><a href="/pwgenerator">Password Generator</a></li>
+                <li><a href="/weather">Weather</a></li>
+
+            </ul>
+
+        </div>
+    </nav>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div class="pwgeneratorcontainer">
+
+        <h1 class="title">Password Generator</h1>
+        <br>
+
+        <label for="websiteName">Website Name:</label>
+        <input type="text" id="websiteName" name="websiteName" placeholder="Enter Website Name">
+        <br>
+
+        
+        <label for="passwordDisplay">Generated Password:</label>
+        <input type="text" id="password-display" name="password-display" disabled>
+
+
+        <form id="passwordGeneratorForm" class="form">
+
+            <label for="characterNumber">Password Length</label>
+
+            <div class="character-amount-container">
+                <input type="range" min="6" max="15" value="15" id="characterAmountRange">
+                <input class="number-input" type="number" min="6" max="15" value="15" id="characterAmountNumber">
+            </div>
+
+            <label for="lowercase">Include Lowercase</label>
+            <input type="checkbox" id="lowercase">
+
+            <label for="uppercase">Include Uppercase</label>
+            <input type="checkbox" id="uppercase">
+
+            <label for="numbers">Include Numbers</label>
+            <input type="checkbox" id="numbers">
+
+            <label for="symbols">Include Symbols</label>
+            <input type="checkbox" id="symbols">
+
+            <button class="btn" type="button" onclick="generatePassword()">Generate Password</button>
+
+            <button class="btn" type="button" onclick="savePassword()">Save Password</button>
+
+        </form>
+
+
+    </div>
+
+    <script src="./pwgenerator.js"></script>
+
+</body>
+</html>

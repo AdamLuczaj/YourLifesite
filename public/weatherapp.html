@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lifesite | Weather</title>
+    <link rel="stylesheet" href="./weatherapp.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
+    <link rel="manifest" href="./images/site.webmanifest">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="/">Lifesite</a></div>
+
+            <ul class="menu">
+                <li><a href="/mypws">My Passwords</a></li>
+                <li><a href="/pwgenerator">Password Generator</a></li>
+                <li><a href="/weather">Weather</a></li>
+
+            </ul>
+
+        </div>
+    </nav>
+
+    <br><br><br><br><br>
+
+    <div class="weathercontainer">
+
+        <h1>Weather App</h1>
+
+        <br>
+
+        <p>Search a City:</p>
+
+        <div class="search-weather">
+            <input type="text" id="input-box-city" class="search-weather-bar" placeholder="Search A City">
+            <button class="btn" type="button" onclick="getWeather()">Search</button>
+        </div>
+
+        <br>
+
+        <div class="information"> 
+            <div class="city" id="city">Loading...</div>
+            <div class="temp" id="temperature"></div>
+            <img src="" alt="" class="icon" id="weatherImg"/>
+            <div class="description" id="description"></div>
+            <div class="humid" id="humidity"></div>
+            <div class="wind" id="wind"></div>
+        </div>
+
+    </div>
+
+    <script src="./weatherapp.js"></script>
+
+</body>
+</html>
