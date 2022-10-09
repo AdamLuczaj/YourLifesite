@@ -128,6 +128,8 @@ function getWeatherPage(request, response) {
 
 }
 
+//Write more stuff here.
+
 MongoClient.connect("mongodb://localhost:27017/", function(err, client) {
     if(err) throw err;
 
