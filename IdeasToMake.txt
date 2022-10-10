@@ -5,4 +5,4 @@ Todo:
 
 Backlog:
 1. Create account system for all accounts (not just password). If that is done get rid of password generator as someone could get into the database and just take somebodies passwords we don't want them.
-2. Create verification system for accounts that are made and if somebody wants to change their password.
+2. Create verification system for accounts that are made and if somebody wants to change their password
