@@ -5,7 +5,7 @@ Purpose:
 A website that holds mini-applications that you will use in your daily life. Currently has a password generator which is stored in a MongoDB database and a weather app to search by City.
 This website will be added with many more applications in the years to come, such as a monthly schedule planner, a thread to ask and answer questions to other users, and much more!
 
-Notes:
+Weather App Notes:
 To be able to use the weather app, you must create an account at https://openweathermap.org/ then get your API key.
 When signed in and your email has been verified:
 1. Click your account name from the header then select My API Keys
