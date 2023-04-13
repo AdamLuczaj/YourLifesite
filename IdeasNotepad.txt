@@ -3,6 +3,7 @@ Todo:
 2. Notes tab where somebody can store their important notes.
 3. Daily schedule planner.
 4. System to add friends and be able to chat with your friends.
+5. Create a video playback timer, basically a calculator for if I want to watch a 2 hour video at 1.5x speed, how long will it take to watch that video.
 
 Backlog:
 1. Create account system for all accounts (not just password). If that is done get rid of password generator as someone could get into the database and just take somebodies passwords we don't want them.
