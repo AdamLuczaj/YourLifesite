@@ -7,6 +7,8 @@ Todo:
 6. Make a video displaying all functionalities of the site to link it to the resume.
 7. Create some preview pictures to link to the site.
 
+8. Create a bionic reader application basically where you paste in text and then it will output the text in bionic terms to be easier to read (for each word it bolds the first few letters, google it to see what it means).
+
 Backlog:
 1. Create account system for all accounts (not just password). If that is done get rid of password generator as someone could get into the database and just take somebodies passwords we don't want them.
 2. Create verification system for accounts that are made and if somebody wants to change their password
