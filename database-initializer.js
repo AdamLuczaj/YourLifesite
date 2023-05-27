@@ -1,4 +1,4 @@
-let websiteNames = ["Lifesite", "Test"];
+let websiteNames = ["YourLifesite", "Test"];
 let websites = [];
 
 websiteNames.forEach(name => {
